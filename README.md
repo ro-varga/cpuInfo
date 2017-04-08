@@ -1,7 +1,9 @@
 # cpuInfo
-Read the Linux CPU information from /proc/cpuinfo and display it using QML. (First hands-on experience with QT)
+Read the Linux CPU information from /proc/cpuinfo and display it using QML. (My first hands-on experience with QT)
 
-- must run on a standard Linux system (preferably Ubuntu)
-- QT version at least 5.4 (used 5.4, QT Creator 4.2.1)
-- QT C++ (reading the system information)
-- QT Quick (display of the data)
+Requirements:
+1. The data visualization, including UI layout and design is up to me.
+2. The solution must run on a standard Linux system, preferably Ubuntu, and should be written using Qt C++ to read the system information and Qt Quick (not QWidget) to display the data
+3. Qt version should be at least Qt 5.4.
+
+Used: QT Creator 4.2.1
